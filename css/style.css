@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+.description{
+    background-color: #7c00a5;
+    height: 53.7vw;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vw;
+}
+
+.description img{
+    margin-bottom: 2vw;
+    width: 200px;
+}
+
+.description h1{
+    font-size: 60px;
+}
+
+.description p{
+    font-size: 25px;
+}
+
+.description a{
+    color: #7c00a5;
+    font-weight: bold;
+    background-color: white;
+    font-size: 25px;
+    margin-top: 1.5vw;
+    padding: 5px 17px;
+    border-radius: 10px;
+}
+
+.login{
+    background-color: #dadada;
+    height: 53.7vw;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-body{
+    display: flex;
+}
+.login{
+    padding-top: 16vw;
+}
+
+.login h1{
+    font-size: 35px;
+    color: #7c00a5;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    
+}
+
+.login form a{
+    text-align: center;
+    margin: 1vw 0;
+    font-size: 20px;
+}
+
+.login form input{
+    height: 4vw;
+    font-size: 20px;
+    padding-left: 5%;
+    border: none;
+    margin: 1vw 0  0;
+    border-radius: 10px;
+    background-color: #c1c1c1;
+}
+
+.button-form{
+    width: 35%;
+    padding: 1vw;
+    border: none;
+    background-color: #7c00a5;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    margin: auto;
+}
