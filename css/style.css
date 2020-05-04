@@ -96,10 +96,14 @@ body{
     border: none;
     background-color: #7c00a5;
     font-size: 20px;
-    color: white;
     border-radius: 50px;
     margin: auto;
 }
+
+.login form .button-form a{
+    color: white;
+}
+
 
 /* produtos */
 
@@ -238,3 +242,35 @@ body{
 }
 
 
+.container-body{
+    background-color: #c1c1c1;
+}
+
+.container-body .image-body{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-body .image-body img{
+    width: 86%;
+    height: 33vw;
+    
+}
+
+/* vendas */
+.container-body .vendas-image-body{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-body .vendas-image-body img{
+    width: 86%;
+    height: 45vw;
+}
