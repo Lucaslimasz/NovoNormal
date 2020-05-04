@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Heebo', sans-serif;
+    background-color: #c1c1c1;
 }
 
 .description{
@@ -89,7 +90,7 @@ body{
     background-color: #c1c1c1;
 }
 
-.button-form{
+.login form .button-form{
     width: 35%;
     padding: 1vw;
     border: none;
@@ -99,3 +100,141 @@ body{
     border-radius: 50px;
     margin: auto;
 }
+
+/* produtos */
+
+.navbar{
+    background-color: #7c00a5;
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+}
+
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+}
+
+.navbar div ul{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar .buttons-navbar{
+    display: flex;
+    
+}
+
+.navbar div ul li{
+    font-size: 27px;
+    color: white;
+    margin-left: 25px;
+}
+
+.navbar div ul li a{
+    color: white;
+}
+
+.navbar div ul li a:hover{
+    border-bottom: 1px solid white;
+    transition: 1s;
+}
+
+.navbar div ul li a:active{
+    color: rgba(255, 255, 255, .7);
+}
+
+.navbar div ul li p{
+    text-align: center;
+    padding-left: 20px;
+}
+
+.navbar div ul li .bem-vindo{
+    font-size: 15px;
+}
+
+.manager{
+    width: 85%;
+    display: flex;
+    margin: 2vw auto;
+    justify-content: space-between;
+}
+
+.manager h1{
+    color: #7c00a5;
+    font-size: 35px;
+}
+
+.manager button{
+    padding: 0 2vw;
+    border: none;
+    background-color: #3eb118;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.manager button img{
+    width: 35px;
+    padding-right: 10px;
+}
+
+.listing{
+    height: 35vw;
+    width: 85%;
+    background-color: white;
+    margin: auto;
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.listing::-webkit-scrollbar{
+    width: 15px;
+    padding: 100px 0;
+}
+
+.listing::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: rgba(0,0,0,.3);
+}
+
+
+
+.listing .names ul{
+    display: flex;
+    padding: 2vw;
+    justify-content: space-around;
+}
+
+.listing .names ul li{
+    font-size: 30px;
+    font-weight: bold;
+    color: #7c00a5;
+}
+
+
+
+.container-itens .itens ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.container-itens .itens ul li{
+    font-size: 27px;
+    font-weight: bold;
+    color: #7c00a5;
+}
+
+
